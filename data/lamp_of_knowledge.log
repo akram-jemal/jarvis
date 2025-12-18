@@ -1,0 +1,54 @@
+2025-12-18 14:46:34 - lamp_of_knowledge - INFO - __init__:29 - Groq client initialized
+2025-12-18 14:46:34 - lamp_of_knowledge - INFO - __init__:39 - LLM Router initialized with provider: groq
+2025-12-18 14:47:33 - lamp_of_knowledge - INFO - main:55 - Resolving RFID code: RFID_001
+2025-12-18 14:47:33 - lamp_of_knowledge - INFO - load_rfid_mapping:31 - Loaded RFID mapping with 2 books
+2025-12-18 14:47:33 - lamp_of_knowledge - INFO - resolve_rfid:73 - Resolved RFID RFID_001 to book: atomic_habits
+2025-12-18 14:47:33 - lamp_of_knowledge - INFO - main:67 - Loading PDF: /Users/akramjemal/Downloads/jarvis/data/books/atomic_habits.pdf
+2025-12-18 14:47:33 - lamp_of_knowledge - INFO - load_pdf:31 - Extracting text from PDF: /Users/akramjemal/Downloads/jarvis/data/books/atomic_habits.pdf (256 pages)
+2025-12-18 14:47:56 - lamp_of_knowledge - INFO - load_pdf:51 - Successfully extracted 459769 characters from PDF
+2025-12-18 14:47:56 - lamp_of_knowledge - INFO - main:75 - Detecting Chapter 1 start position
+2025-12-18 14:47:56 - lamp_of_knowledge - INFO - find_chapter_one_start:30 - Found explicit Chapter 1 at position 362851
+2025-12-18 14:47:56 - lamp_of_knowledge - INFO - __init__:30 - Narrator initialized for book: atomic_habits
+2025-12-18 14:47:56 - lamp_of_knowledge - INFO - __init__:27 - Command router initialized
+2025-12-18 14:48:16 - lamp_of_knowledge - WARNING - answer_question:62 - Groq API attempt 1 failed: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-12-18 14:48:17 - lamp_of_knowledge - WARNING - answer_question:62 - Groq API attempt 2 failed: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-12-18 14:48:19 - lamp_of_knowledge - WARNING - answer_question:62 - Groq API attempt 3 failed: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-12-18 14:48:19 - lamp_of_knowledge - ERROR - answer_question:66 - Groq API failed after 3 attempts
+2025-12-18 14:55:57 - lamp_of_knowledge - WARNING - answer_question:62 - Groq API attempt 1 failed: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-12-18 14:55:59 - lamp_of_knowledge - WARNING - answer_question:62 - Groq API attempt 2 failed: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-12-18 14:56:01 - lamp_of_knowledge - WARNING - answer_question:62 - Groq API attempt 3 failed: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-12-18 14:56:01 - lamp_of_knowledge - ERROR - answer_question:66 - Groq API failed after 3 attempts
+2025-12-18 14:57:34 - lamp_of_knowledge - INFO - main:155 - Lamp of Knowledge session ended
+2025-12-18 14:57:40 - lamp_of_knowledge - INFO - __init__:29 - Groq client initialized
+2025-12-18 14:57:40 - lamp_of_knowledge - INFO - __init__:39 - LLM Router initialized with provider: groq
+2025-12-18 14:58:02 - lamp_of_knowledge - INFO - main:55 - Resolving RFID code: RFID_001
+2025-12-18 14:58:02 - lamp_of_knowledge - INFO - load_rfid_mapping:31 - Loaded RFID mapping with 2 books
+2025-12-18 14:58:02 - lamp_of_knowledge - INFO - resolve_rfid:73 - Resolved RFID RFID_001 to book: atomic_habits
+2025-12-18 14:58:02 - lamp_of_knowledge - INFO - main:67 - Loading PDF: /Users/akramjemal/Downloads/jarvis/data/books/atomic_habits.pdf
+2025-12-18 14:58:02 - lamp_of_knowledge - INFO - load_pdf:31 - Extracting text from PDF: /Users/akramjemal/Downloads/jarvis/data/books/atomic_habits.pdf (256 pages)
+2025-12-18 14:58:25 - lamp_of_knowledge - INFO - load_pdf:51 - Successfully extracted 459769 characters from PDF
+2025-12-18 14:58:25 - lamp_of_knowledge - INFO - main:75 - Detecting Chapter 1 start position
+2025-12-18 14:58:25 - lamp_of_knowledge - INFO - find_chapter_one_start:30 - Found explicit Chapter 1 at position 362851
+2025-12-18 14:58:25 - lamp_of_knowledge - INFO - __init__:30 - Narrator initialized for book: atomic_habits
+2025-12-18 14:58:25 - lamp_of_knowledge - INFO - __init__:27 - Command router initialized
+2025-12-18 14:58:44 - lamp_of_knowledge - WARNING - answer_question:62 - Groq API attempt 1 failed: Error code: 413 - {'error': {'message': 'Request too large for model `groq/compound-mini` in organization `org_01kcex0twhe7vt3kpgafjbfpqq` service tier `on_demand` on tokens per minute (TPM): Limit 70000, Requested 116607, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-12-18 14:58:45 - lamp_of_knowledge - WARNING - answer_question:62 - Groq API attempt 2 failed: Error code: 413 - {'error': {'message': 'Request too large for model `groq/compound-mini` in organization `org_01kcex0twhe7vt3kpgafjbfpqq` service tier `on_demand` on tokens per minute (TPM): Limit 70000, Requested 116607, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-12-18 14:58:47 - lamp_of_knowledge - WARNING - answer_question:62 - Groq API attempt 3 failed: Error code: 413 - {'error': {'message': 'Request too large for model `groq/compound-mini` in organization `org_01kcex0twhe7vt3kpgafjbfpqq` service tier `on_demand` on tokens per minute (TPM): Limit 70000, Requested 116607, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-12-18 14:58:47 - lamp_of_knowledge - ERROR - answer_question:66 - Groq API failed after 3 attempts
+2025-12-18 15:05:39 - lamp_of_knowledge - INFO - main:155 - Lamp of Knowledge session ended
+2025-12-18 15:05:43 - lamp_of_knowledge - INFO - __init__:29 - Groq client initialized
+2025-12-18 15:05:43 - lamp_of_knowledge - INFO - __init__:39 - LLM Router initialized with provider: groq
+2025-12-18 15:05:49 - lamp_of_knowledge - INFO - main:55 - Resolving RFID code: RFID_001
+2025-12-18 15:05:49 - lamp_of_knowledge - INFO - load_rfid_mapping:31 - Loaded RFID mapping with 2 books
+2025-12-18 15:05:49 - lamp_of_knowledge - INFO - resolve_rfid:73 - Resolved RFID RFID_001 to book: atomic_habits
+2025-12-18 15:05:49 - lamp_of_knowledge - INFO - main:67 - Loading PDF: /Users/akramjemal/Downloads/jarvis/data/books/atomic_habits.pdf
+2025-12-18 15:05:49 - lamp_of_knowledge - INFO - load_pdf:31 - Extracting text from PDF: /Users/akramjemal/Downloads/jarvis/data/books/atomic_habits.pdf (256 pages)
+2025-12-18 15:06:13 - lamp_of_knowledge - INFO - load_pdf:51 - Successfully extracted 459769 characters from PDF
+2025-12-18 15:06:13 - lamp_of_knowledge - INFO - main:75 - Detecting Chapter 1 start position
+2025-12-18 15:06:13 - lamp_of_knowledge - INFO - find_chapter_one_start:30 - Found explicit Chapter 1 at position 362851
+2025-12-18 15:06:13 - lamp_of_knowledge - INFO - __init__:30 - Narrator initialized for book: atomic_habits
+2025-12-18 15:06:13 - lamp_of_knowledge - INFO - __init__:27 - Command router initialized
+2025-12-18 15:06:20 - lamp_of_knowledge - INFO - answer_question:58 - Groq answered question successfully
+2025-12-18 15:07:35 - lamp_of_knowledge - INFO - answer_question:58 - Groq answered question successfully
+2025-12-18 15:07:57 - lamp_of_knowledge - INFO - answer_question:58 - Groq answered question successfully
+2025-12-18 15:09:32 - lamp_of_knowledge - INFO - main:155 - Lamp of Knowledge session ended

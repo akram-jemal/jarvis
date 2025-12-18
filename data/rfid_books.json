@@ -1,0 +1,11 @@
+{
+  "RFID_001": {
+    "title": "atomic_habits",
+    "pdf_path": "data/books/atomic_habits.pdf"
+  },
+  "RFID_002": {
+    "title": "Another Book",
+    "pdf_path": "data/books/another_book.pdf"
+  }
+}
+
